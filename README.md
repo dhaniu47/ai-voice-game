@@ -30,7 +30,13 @@ python game.py
 - ESC → Exit Game  
 
 ##  Screenshots
-(Add screenshots below)
+
+![Gameplay](Screenshot 2026-02-20 075806.png)
+
+![Voice Interaction](Screenshot 2026-02-20 080033.png)
+
+![NPC Scene](Screenshot 2026-02-20 080150.png)
+
 
 ##  Author
 Dhaneswari Behera
