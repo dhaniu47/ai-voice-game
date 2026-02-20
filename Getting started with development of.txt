@@ -1,0 +1,158 @@
+Getting started with development of Python program
+========================================================
+=> what is python
+=> Types of literals or values
+=> Importance of Identifiers or variable
+=> Rules using Identifiers OR Variables in python program
+	-----------------------------------------------------------
+
+What is program?
+	--------------------------------------------------------------
+=>A program is a collection of optimized Instruction meant for performing an operation/task
+=> Optimized instruction are nothing but that takes Less time complexity and less space complexity
+=>The time complexity is the amount of time taken by the processor for executing our program/application and the best program time complexity must be less
+=>The space complexity is the amount memory space taken by the program in main memory of the computer is called space complexity and the best programs space complexity be less
+=>In python program when we write collection of optimized instructions must saved on some name called file name with an extension .
+
+
+py
+=> filename.py................contains source code
+=> python program compiled by python Interpreter and executed by Python Virtual machine(PVM)
+	---------------------------------------------------------------
+Types of literals or values
+	----------------------------------------------------------------
+to all programs end user must given some Inputs and those Inputs values are literals or Values
+=>we have 5 types of fundamental literals. they are---
+literals					1.Integer
+Literals					2.String
+literals					3.Floats
+literals					4.Boolean
+collections of literals				5.
+	-----------------------------------------------------------------
+Important of Identifiers or variables 
+	-------------------------------------------------------------------
+In any programming language, Literals must stored in main memory by allocating sufficient amount of memory space with the help of data types 
+=> we know that all types of literals are stored in main memory by having memory space 
+=> to process values which are present in memory space programmers must give distinct names for the created memory space
+=> These Distinct space make us to identify the values present in memory space hence they are called Identifiers
+=>The identifier values are changing varies during program execution and hence identifiers are also called variables
+=> Hence all types of literals are stored in the form of variables in the main memory and all variables are called objects
+	----------------------------------------------------------------------
+Definitions of variables
+	---------------------------------------------------------------
+A variables is an Identifier whose values are changing During program execution
+Rules:
+ 1. The Variables names are the combinations of alphabets, digits, special symbol called Underscore(_)
+ 2. First letter of variable name must starts either alphabets or (_) only
+ 3. no special symbols are allowed except (_)
+ 4. no keywords should be used as Variables name because keywords are Reserve words they have some special meaning to the language compilers/interpreter
+ 5. all variables in python are case Sensitive
+	---------------------------------------------------------------------------
+Note:
+>>>import keyword as k
+>>>k.kwlist
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+>>>len(k.kwlist)
+35
+===========================================================================================
+Data Types in Python
+	--------------------------------------------------------------------------------
+The purpose data types is that to allocate sufficient amount of memory space in main memory of the computer for storing the inputs/literals/values.
+=> In python programming we have 14 data types and they are categorized into 6 types
+_______________________________________________________________________
+1. Fundamental data types
+_________________________________________________________________________
+1.1 int
+1.2 float
+1.3 bool
+1.4 complex
+__________________________________________________________________________
+2. Sequential Data Types
+____________________________________________________________________________
+2.1 str
+2.2 bytes
+2.3 byte array
+2.4 range
+_________________________________________________________________________
+3.List category data types
+___________________________________________________________________________
+3.1 list
+3.2 tuple
+__________________________________________________________________________
+4.set category Data types
+________________________________________________________________________
+4.1 set
+4.2 frozen set
+_________________________________________________________________________
+5.Dict category data types
+_________________________________________________________________________
+5.1 Dict 
+____________________________________________________________________________
+6.none Type 
+ ____________________________________________________________________________
+6.1 None type
+_______________________________________________________________________________________________________________________________________
+		====================================================================================
+					Exception handling in python 
+		=====================================================================================	
+INDEX:
+=>purpose of exception handling
+=>what is exception
+=>what is exception handling
+=>Types of errors
+	a)compile time error
+	b)logical error
+	c)Runtime error
+
+	======================================================================	=======================
+	Types of exceptions in python
+IN python programming we have two types of exceptions. They are 
+	1.pre-defined or built in exceptions
+	2.programmer or user or costume defined exception
+	========================================================================
+1.)pre-defined or built in exception are those which are already developed by python language developer and available in python software and they are used by python language programmers for dealing with universal problems.
+=> some of the universal problems are
+	1)Invalid index(index error)
+	2)Invalid conversions(Value error)
+	3)Invalid no. of agreements or operations (Type error)
+	4)Passing Invalid Key (Key Error)
+	5)Division by Zero problems(Zero Division error)
+All these above error names are called Runtime Errors and they are called pre-defined exceptions class names
+	==========================================================================
+2.) [programmers or users or customer defined Exceptions
+=>programmers or users or customer defined exceptions are those which are developed by python programmer and they are available in python projects and they are used by the other team members of the same projects and they are always deals with the project related common problem occurring in the project execution.
+
+=>some of the common problems are 
+	i.)attempting to enter Invalid user name and password
+	ii.)Attempting to enter invalid pin in Atm applications.
+	iii.)attempting to withdraw more amount then existing balance of acc.
+	iv.)Attempting to enter Invalid Names for people, places, products...etc
+	==============================================================================
+Syntax Handling the exceptions or keyword required for handling the exceptions
+=> Handling the exceptions are nothing but converting the technical error messages into user friendly error messages 
+=> IN python programming for handling the exceptions we have 5 keywords
+	1.)try
+	2.)except
+	3.)else
+	4.)finally
+	5.)raise
+	===============================================================================
+Syntax for handling the exceptions
+	try:
+		{ Block of statements generates exceptions
+}
+=> it is the block in which we write block of statements generating exceptions.
+=>In other words what are all the statements are generating exceptions, those statements must be written  within try blocks and hence try block is called exception monitoring blocks
+=> when an exception occurs in try block then pvm comes out of try blocks and executes appropriate except blocks
+=> after executing appropriate except blocks pvm never goes t o try block for executing rest of the statements in Try block
+=> every try block must be immediately followed by except blocks (otherwise we get syntax errors)
+=> every try block must be contain at least one except block. It is recommended to write multiple except blocks for generating User friendly error messages. 
+	===================================================================================
+2. Except:
+	
+
+
+
+
+
+ 
