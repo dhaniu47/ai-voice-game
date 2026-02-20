@@ -31,11 +31,12 @@ python game.py
 
 ##  Screenshots
 
-![Gameplay](Screenshot 2026-02-20 075806.png)
+![Gameplay](screen1.png)
 
-![Voice Interaction](Screenshot 2026-02-20 080033.png)
+![Voice Interaction](screen2.png)
 
-![NPC Scene](Screenshot 2026-02-20 080150.png)
+![NPC Scene](screen3.png)
+
 
 
 ##  Author
