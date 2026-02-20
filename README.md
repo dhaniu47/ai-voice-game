@@ -29,13 +29,11 @@ python game.py
 - E → Get NPC attention  
 - ESC → Exit Game  
 
-##  Screenshots
+## 📷 Screenshots
 
-![Gameplay](screen1.png)
-
-![Voice Interaction](screen2.png)
-
-![NPC Scene](screen3.png)
+![Screenshot1](Screenshot%202026-02-20%20075806.png)
+![Screenshot2](Screenshot%202026-02-20%20080033.png)
+![Screenshot3](Screenshot%202026-02-20%20080150.png)
 
 
 
